@@ -1,14 +1,14 @@
-import * as React from 'react'
+import React from 'react'
 
 import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import Ionicons from 'react-native-vector-icons/Ionicons'
 
 //telas
-import homescreen from './screens/homescreen'
-import searchscreen from './screens/searchscreen'
-import orderscreen from './screens/ordersscreen'
-import profilescreen from './screens/profilescreen'
+import homescreen from './screens/home/homescreen'
+import searchscreen from './screens/search/searchscreen'
+import orderscreen from './screens/orders/ordersscreen'
+import profilescreen from './screens/profile/profilescreen'
 
 //nomes
 const homename = 'Início'
